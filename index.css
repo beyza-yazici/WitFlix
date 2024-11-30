@@ -7,6 +7,7 @@ header{
     justify-content:space-between;
     align-items:center;
     align-content:center;
+    border: 1px solid black;
 }
 .logo{
     width: 198px;
@@ -15,6 +16,7 @@ header{
 .menu{
     width: 314;
     height: 60;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -22,13 +24,12 @@ header{
     flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 1rem;
-    color: black;
 }
 .search{
     width: 314px;
     height: 60px;
     margin-top: 1rem;
-    gap: 2rem;
+    gap: 5rem;
 }
 .buyutec{
     width: 10px;
@@ -42,15 +43,32 @@ header{
     text-align: right;
     border-radius: 50px;
     margin-top: 1rem;
+    color: white;
+    border: black;
 }
-.fas fa-bell{
+.fa-regular fa-bell{
     width: 40px;
     height: 40px;
     background-color: none;
     border-color: blue;
 }
+main{
+    border: 1px solid black;
+    margin: 1rem;
+}
 .suggestion-item-content{
     width: 150px;
     margin: 10px;
     padding: 15px;
+    border: 1px solid black;
+}
+.user-rating{
+    color: red;
+    display: inline-block;
+}
+.duration{
+    font-weight: bold;
+}
+.maturity-rating{
+    border: 1px solid black;
 }
