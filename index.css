@@ -1,5 +1,5 @@
 header{
-    width: 1092px;
+    width: 1700px;
     height: 129px;
     display:flex;
     flex-direction:row;
@@ -9,13 +9,16 @@ header{
     align-content:center;
     border: 1px solid black;
 }
+a{
+    color: black;
+}
 .logo{
     width: 198px;
     height: 60px;
 }
 .menu{
-    width: 314;
-    height: 60;
+    width: 314px;
+    height: 60px;
     color: black;
     display: flex;
     flex-direction: row;
@@ -25,50 +28,132 @@ header{
     gap: 2rem;
     margin-top: 1rem;
 }
-.search{
+.user-control-panel{
+    display: inline;
     width: 314px;
     height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
     margin-top: 1rem;
-    gap: 5rem;
 }
-.buyutec{
-    width: 10px;
-    height: 10px;
-    margin-top: 1rem;
-}
-
 .profile{
     height: 25px;
     width: 25px;
-    text-align: right;
+    justify-content: left;
+    align-items: left;
     border-radius: 50px;
     margin-top: 1rem;
-    color: white;
-    border: black;
+    background-color: white;
+    border: 1px solid black;
 }
-.fa-regular fa-bell{
-    width: 40px;
-    height: 40px;
-    background-color: none;
-    border-color: blue;
-}
+
 main{
     border: 1px solid black;
     margin: 1rem;
+    width: 1700px;
+    height: 370px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.suggestion-item{
+    display: flex;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+}
+.suggestion-content{
+    display: flex;
+    flex-direction: row;
+    width: 1700px;
+    height: 191px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
 }
 .suggestion-item-content{
-    width: 150px;
-    margin: 10px;
+    display: inline-block;
+    width: 285px;
+    height: 168px;
     padding: 15px;
     border: 1px solid black;
+    font-size: 16px;
+    margin: 10px;
 }
 .user-rating{
     color: red;
-    display: inline-block;
+    display: flex;
 }
 .duration{
     font-weight: bold;
 }
 .maturity-rating{
     border: 1px solid black;
+}
+.movie-details span{
+    color: red;
+    font-weight: bold;
+}
+.btn.btn-lg{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    width: 157px;
+    height: 57px;
+}
+.suggestion-row-hide{
+    width: 1700px;
+    height: 370px;
+    visibility: hidden;
+}
+footer{
+    width: 1700px;
+    height: 186px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+
+}
+.son{
+    width: 448px;
+    height: 32px;
+    color: black;
+}
+.copyright{
+    width: 560px;
+    height: 55px;
+    color: black;
+}
+.follow{
+    width: 138px;
+    height: 109px;
+}
+footer img{
+    display: flex;
+    flex-direction: row;
+    aspect-ratio: 1/1;
+    width: 60px;
+    height: 60px;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    align-content:center;
+
+}
+.apps{
+    width: 285px;
+    height: 109px;
 }
