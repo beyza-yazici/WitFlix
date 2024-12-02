@@ -11,6 +11,7 @@ header{
 }
 a{
     color: black;
+    font-size: 20px;
 }
 .logo{
     width: 198px;
@@ -19,7 +20,6 @@ a{
 .menu{
     width: 314px;
     height: 60px;
-    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,6 +27,7 @@ a{
     flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 1rem;
+    
 }
 .user-control-panel{
     display: inline;
@@ -36,9 +37,20 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 1rem;
 }
+.user-control-panel .fas.fa-search{
+    margin-left: 0;
+    margin-right: 2rem;
+}
+.user-control-panel .fa-regular.fa-bell{
+    color: blue;
+    height: 46px;
+    width: 38px;
+
+}
+
 .profile{
     height: 25px;
     width: 25px;
@@ -49,13 +61,34 @@ a{
     background-color: white;
     border: 1px solid black;
 }
+h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.suggestion-title{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 1700px;
+    height: 32px;
+    margin: 1rem;
+}
 
 main{
     border: 1px solid black;
-    margin: 1rem;
     width: 1700px;
     height: 370px;
+    padding: 3rem;
+    
 }
+
 h3{
     font-size: 20px;
     font-weight: bold;
@@ -76,7 +109,7 @@ h3{
     width: 1700px;
     height: 191px;
     border: 1px solid black;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -92,6 +125,13 @@ h3{
 .user-rating{
     color: red;
     display: flex;
+    
+}
+p{
+    font-size: 16px;
+    width: 564px;
+    height: 82px;
+    margin-top: 1rem;
 }
 .duration{
     font-weight: bold;
@@ -102,14 +142,17 @@ h3{
 .movie-details span{
     color: red;
     font-weight: bold;
+    display: flex;
+    
 }
 .btn.btn-lg{
     background-color: red;
     color: white;
     border: none;
     border-radius: 10%;
-    width: 157px;
-    height: 57px;
+    width: 120px;
+    height: 40px;
+    margin-top: 1rem;
 }
 .suggestion-row-hide{
     width: 1700px;
@@ -131,6 +174,7 @@ footer{
     width: 448px;
     height: 32px;
     color: black;
+    gap: 4rem;
 }
 .copyright{
     width: 560px;
